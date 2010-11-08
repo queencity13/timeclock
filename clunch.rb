@@ -1,13 +1,13 @@
-#!/Users/adam/.rvm/rubies/ree-1.8.7-2010.02/bin/ruby
+#!/Users/charlotte/.rvm/rubies/ree-1.8.7-2010.02/bin/ruby
 
 require 'rubygems'
 require 'active_record'
 
 ActiveRecord::Base.establish_connection(
-  :adapter  => "mysql",
+  :adapter  => "mysql2",
   :host     => "localhost",
   :username => "root",
-  :password => "taxMan125!",
+  :password => "comet13",
   :database => "timeclock"
 )
 
